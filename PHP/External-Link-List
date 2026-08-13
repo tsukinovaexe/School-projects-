@@ -1,0 +1,26 @@
+<?php
+
+$links = [
+"Google" => "https://www.Google.com/",
+"Youtube" => "https://www.Youtube.com/",
+"Netflix" => "https://www.Netflix.com/",
+"Github" => "https://www.Github.com/",
+"Wikipedia" => "https://www.Wikipedia.org/",
+
+];
+
+?>
+
+<nav class="link list">
+    <h2>Useful links</h2>
+
+    <ul>
+      <?php foreach ($links as $name => $url): ?>
+           <li>
+               <a href="<?php echo $url; ?>" target="_blank">
+                  <?php echo $name; ?>
+               </a>
+            </li>
+       <?php endforeach; ?>
+     </ul>
+</nav>
