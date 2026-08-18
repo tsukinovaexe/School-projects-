@@ -1,5 +1,3 @@
-<?php
-
 <?php include("links.php"); ?>
 
 <nav class="link-list">
