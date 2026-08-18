@@ -1,14 +1,6 @@
 <?php
 
-$links = [
-"Google" => "https://www.google.com/",
-"Youtube" => "https://www.youtube.com/",
-"Netflix" => "https://www.netflix.com/",
-"Github" => "https://www.github.com/",
-"Wikipedia" => "https://www.wikipedia.org/",
-];
-
-?>
+<?php include("links.php"); ?>
 
 <nav class="link-list">
     <h2>Useful links</h2>
